@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #24353f;
+}
+#login .container {
+  width: 80%;
+  border-radius: 5px;
+  background-color: #24353f;
+  box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+#login .container h1 {
+  color: #17a2b8;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+#login .container input {
+  border: 1px solid white;
+  color: rgb(227, 223, 223);
+  padding: .625rem;
+  border-radius: 5px;
+  outline: none;
+}
+#login .container input:focus {
+  border: 2px solid #17a2b8 !important;
+}
+#login .container input::placeholder {
+  color: #b6b6ab;
+}
+#login .container button {
+  color: #17a2b8;
+  border: 1px solid#17A2B8;
+  background-color: transparent;
+  transition: all 0.5s;
+  /* width: 55%!important; */
+  border-radius: 5px;
+} 
+#login .container button:hover {
+  color: white!important;
+  background-color: #17a2b8!important;
+  border: transparent;
+}
+#login .container p a {
+  color: white;
+  text-decoration: none;
+}
+#login .container p a:hover {
+  text-decoration: underline;
+}
+#login .container .one {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+nav {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+nav .container h1 {
+  cursor: pointer;
+  color: white;
+  font-size: 1.25rem;
+  padding: .5rem;
+}
+nav .container button {
+  border: 1px solid #ffc107;
+  color: gray;
+  background-color: transparent;
+  transition: all 0.5s;
+  border-radius: 8px;
+}
+nav .container button:hover {
+  background-color: #ffc107;
+  color: white;
+}
+.parent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  background-color: #24353f;
+}
+.child p,
+span {
+  color: #17a2b8;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+nav .container button a {
+  text-decoration: none;
+  color: inherit;
+}
